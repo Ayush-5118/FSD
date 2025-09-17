@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // function favouriteAnimal(animal){
+        //     return animal + 'is my fav animal'
+        // }
+        // console.log(favouriteAnimal('Cat'));
+
+        // function sum(param1 , param2) {
+        //     return param1 + param2
+        // }
+        // console.log(sum(8,9));
+
+        // let userName = 'harsh'
+        // function greeting(userName = 'harsh'){
+        //     alert(`Hello ${userName}`);
+        // }
+
+        // // Arrow function
+
+        // const greet = () => {
+        //     console.log('Hello')
+        // };
+
+        // // var is a function scope
+        // // let is a block scope
+
+        // function run (){
+        //     var foo = 'foo';
+        //     let bar = 'bar';
+
+        //     console.log(foo,bar); // foobar
+        // }
+
+        // // let varvariable = 5;
+        // let age = prompt("Enter Your Age");
+        // function agecheck(age){
+        //     if (age >=18){
+        //       alert("Eligible");
+        //     }
+        //     else{
+        //        alert("Not Eligible");
+        //     };
+        // };
+
+        // First thing take input from server
+        // then think of how will you generate a random number
+        // then think of how will you return or print
+
+       // let userInput = prompt(' Enter Your Desired ');
+      //  console.log(typeof(userInput));
+
+        
+        let userInput = parseInt(prompt(' Enter Your Desired '));
+        console.log(typeof(userInput));
+        // String(userinput)
+
+      function randomNumberGenerator(number = 5){
+        let userInput = number;
+        let randomNumber = Math.floor(Math.random() *number);
+        return randomNumber;
+      }
+
+      let answer = randomNumberGenerator (userInput);
+      alert(answer);
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
